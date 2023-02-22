@@ -1,0 +1,102 @@
+/* Import different Section */
+@import url("/css/vanila/1.header.css");
+@import url("/css/vanila/2.banner.css");
+@import url("/css/vanila/3.about.css");
+@import url("/css/vanila/4.features.css");
+@import url("/css/vanila/5.recentWork.css");
+@import url("/css/vanila/6.statistics.css");
+@import url("/css/vanila/7.testimonial.css");
+@import url("/css/vanila/8.workTeam.css");
+@import url("/css/vanila/9.blog.css");
+@import url("/css/vanila/10.contact.css");
+@import url("/css/vanila/11.logoSection.css");
+@import url("/css/vanila/12.footerMenu.css");
+
+@import url("/css/vanila/13.footer.css");
+@import url("/css/MediaQuery/large.css");
+@import url("/css/MediaQuery/medium.css");
+@import url("/css/MediaQuery/small.css");
+@import url("/css/MediaQuery/XtraSmall.css");
+@import url("/css/MediaQuery/xxlarge.css");
+@import url("/css/MediaQuery/xtraLarge.css");
+
+/* Import different Section end */
+
+:root {
+  --menuFont: #323541;
+  --paragraph: #888888;
+  --head1: #ff7214;
+  --title: #112e41;
+  --stateBg: #162b45;
+  --buttonText: #ffffff;
+  --footerText: #999999;
+  --headerBackground: #f7f7f7;
+  --bannerBackground: #f7f7f7;
+  --featureBoxBorder: #f6f7fb;
+  --featureBg1: #ffeee2;
+  --featureBg2: #ebe3ff;
+  --featureBg3: #d5f8ff;
+  --featureBg4: #ffedf5;
+  --featurefont1: #ff7214;
+  --featurefont2: #9165ff;
+  --featurefont3: #309cfd;
+  --featurefont4: #ff1481;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--paragraph);
+}
+img {
+  width: 100%;
+}
+p {
+  margin: 0rem;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.btn,
+.btn:hover {
+  outline: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn {
+  display: inline-block;
+}
+.commonHead {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--head1);
+  text-transform: capitalize;
+}
+.commonTitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--title);
+}
+.align-items-center {
+  align-items: center;
+}

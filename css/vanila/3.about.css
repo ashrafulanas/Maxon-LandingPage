@@ -1,0 +1,75 @@
+.aboutSection {
+  margin: 130px 0 0px;
+  overflow-x: hidden;
+}
+.aboutImage {
+}
+.aboutBackgroundImage {
+  position: relative;
+}
+.aboutBackgroundImage img {
+  z-index: -1;
+  max-width: 65%;
+  position: absolute;
+  top: 30px;
+  left: 44%;
+  transform: translate(-50%);
+}
+
+.aboutImage .img1 {
+  padding-top: 60px;
+  max-width: 100%;
+  height: auto;
+}
+.aboutImage .img2 {
+  max-width: 100%;
+  height: auto;
+}
+.aboutImage h3 {
+  margin-top: 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--title);
+}
+
+.aboutText {
+  margin: 70px 0 0 50px;
+  max-width: 505px;
+}
+.aboutText .commonHead {
+  margin-bottom: 25px;
+}
+.aboutText .commonTitle {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.aboutText .highlightText {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--title);
+  margin-bottom: 30px;
+}
+.aboutText p {
+  margin-bottom: 40px;
+}
+.aboutText button {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: var(--head1);
+  border-radius: 50px;
+  padding: 15px 30px;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.aboutText button:hover {
+  background-color: #ffffff;
+  border: 1px solid var(--head1);
+  color: var(--head1);
+}
+.aboutText button i {
+  margin-left: 5px;
+}

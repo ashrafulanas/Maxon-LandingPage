@@ -1,0 +1,151 @@
+
+Head Link File List
+<!-- Google Font Link -->
+<!-- fontawesome -->
+<!-- themify -->
+<!-- Bootstrap Link -->
+<!-- Css link -->
+
+<body>
+    <!-- js scripts -->
+    <!-- js plugin scripts -->
+    <!-- js bootstrap scripts -->
+    <!-- js custom scripts -->
+</body>
+
+Font{
+   1 roboto (regular, medium, bold)
+    {font-family: 'Roboto', sans-serif;}
+   2 poppins (medium, semibold, bold)
+   {font-family: 'Poppins', sans-serif;}
+}
+
+
+section  1 header
+[
+    1. logo generate: done.
+    2. menu font: robot medium, 15px, #323541.
+    3. padding of menu list left right: 30px 25px:
+]
+
+
+section  2 Banner
+[
+    1. container Divide: col-md-6 (*2).
+    2. creative agency: roboto Medium, 18px, #ff7214
+    3. banner Title: poppins bold, 60px, #112e41.
+    4. paragraph: roboto regular, 15px, #888888
+    5. button text: poppins semibold, 14px, #ffffff.
+    6. text margin: 200px 0 220px
+    7. image: 50px 0 70px.
+]
+section  3 about
+[
+    1. container Divide: col-md-6 (*2).
+    2. left column text: poppins bold, 42px,#112e41.
+    3. right column text:
+                     >roboto Medium, 14px, #ff7214.
+                     >poppins bold, 42px,#112e41.
+                     >poppins medium, 20px,#112e41.
+                     >roboto regular, 15px, #888888
+                     >poppins semibold, 14px, #ffffff.
+    4. Image gathered.
+    5. marginL 150px 0
+]
+
+section  4 features
+[
+    1. Title col-12
+                > roboto Medium, 14px, #ff7214.
+                > poppins bold, 42px,#112e41.
+    2. 4 feature Card: col-md-3
+                > poppins semibold, 22px, #112e41. 
+                > roboto regular, 15px, #888888
+    3. icon from font awesome
+        > <i class="fa-solid fa-pen-to-square"></i>
+        > <i class="fa-solid fa-bring-forward"></i>
+        > <i class="fa-solid fa-lock-keyhole"></i>
+        > <i class="fa-solid fa-headphones"></i>
+]
+
+
+section  5 recent work
+[
+    1. Title col-12
+                > roboto Medium, 14px, #ff7214.
+                > poppins bold, 42px,#112e41.
+    2. image text
+               > roboto Medium, 14px, #ff7214.
+               > poppins bold, 30px,#112e41.
+                > roboto regular, 15px, #888888
+                >poppins semibold, 14px, #112e41.
+]
+
+section  6 statistics
+[
+    1. backgroundColor: #162b45;
+    2. text: poppins bold,22px #ffffff
+    3. number: roboto bold,60px #ffffff
+]
+
+section 7 testimonial
+[
+
+     1. Title col-12
+                > roboto Medium, 14px, #ff7214.
+                > poppins bold, 42px,#112e41.
+     2. col-md-6
+     3. slider 
+                  > roboto regular, 20px, #888888
+                  > poppins semibold, 22px, #112e41.
+                  > roboto regular, 14px, #888888
+]
+
+
+section 8 team
+[
+
+     1. Title col-12
+                > roboto Medium, 14px, #ff7214.
+                > poppins bold, 42px,#112e41.
+     2. col-md-4
+     3. text    
+            > poppins semibold, 22px, #112e41.
+            > roboto regular, 14px, #888888.
+            > roboto regular, 14px, #888888.
+]
+
+section 9 Blog
+[
+
+     1. Title col-12
+                > roboto Medium, 14px, #ff7214.
+                > poppins bold, 42px,#112e41.
+     2. col-md-4
+     3. text 
+            > roboto regular, 12px, #888888.   
+            > poppins semibold, 22px, #112e41.
+            > roboto regular, 12px, #888888.   
+     4. fontawesome
+                > <i class="fa-solid fa-message"></i>
+                > <i class="fa-solid fa-heart"></i>
+]
+
+section 12 footerMenu
+[
+
+    1. title : poppins semibold, 22px,  #ffffff
+    2. text: > roboto regular, 15px, #999999
+    3. image gather:     
+]
+Section 13 footerMenu
+[
+    1. text: > roboto regular, 15px, #999999
+]
+
+
+
+
+
+
+    

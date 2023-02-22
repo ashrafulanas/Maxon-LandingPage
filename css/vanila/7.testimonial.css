@@ -1,0 +1,78 @@
+.testimonialSection {
+  margin-top: 130px;
+}
+.testimonialSection .sectionTitle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.testimonialSection .sectionTitle .commonHead {
+  margin-bottom: 25px;
+}
+.testimonialSection .sectionTitle .commonTitle {
+  font-size: 42px;
+}
+
+.videoImage {
+  position: relative;
+}
+.videoImage img {
+}
+.videoImage .overlay {
+  position: absolute;
+  background: #112e41;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.videoImage .videoIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: beat infinite 1.2s;
+  cursor: pointer;
+}
+.videoImage .videoIcon img {
+}
+.videoCaption {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.videoCaption {
+  color: #ffffff;
+  font-size: 13px;
+}
+.testimonial {
+  margin-top: 60px;
+  max-width: 700px;
+  padding: 0 0 0 60px;
+}
+.testimonial .image {
+  margin-bottom: 45px;
+}
+.testimonial .image img {
+  width: 120px;
+  height: 120px;
+}
+.testimonialText {
+  margin-bottom: 40px;
+}
+.testimonialText p {
+}
+.detailInfo {
+  display: flex;
+  flex-direction: row;
+}
+.detailInfo .logo {
+}
+.detailInfo .logo img {
+  width: 120px;
+}
+.detailInfo .nameDesignation {
+  margin-left: 40px;
+}

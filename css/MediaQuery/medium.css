@@ -1,0 +1,483 @@
+/* // medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .headerSection .menu ul li a {
+    margin-top: 10px;
+  }
+  .bannerSection {
+    padding: 50px 0 70px;
+  }
+  .bannerText {
+    margin-top: 50px;
+  }
+  .bannerText .commonHead {
+    font-size: 16px;
+  }
+
+  .bannerText .commonTitle {
+    font-size: 35px !important;
+    line-height: 1.2;
+    margin: 15px 0 20px;
+  }
+  .bannerText p {
+    padding-right: 12%;
+    margin-bottom: 35px;
+  }
+  .bannerText button {
+    padding: 12px 25px;
+  }
+
+  /*  About Section */
+  .aboutSection {
+    margin: 70px 0 0px;
+  }
+  .aboutImage {
+  }
+  .aboutBackgroundImage img {
+    max-width: 65%;
+    top: 30px;
+    left: 45%;
+  }
+  .aboutImage .img1 {
+    padding-top: 60px;
+  }
+  .aboutImage .img2 {
+    padding-top: 20px;
+  }
+  .aboutImage h3 {
+    margin-top: 55px;
+    padding-left: 10px;
+    font-size: 31px;
+  }
+
+  .aboutText {
+    margin: 50px 20px 0;
+    max-width: 100%;
+  }
+  .aboutText .commonHead {
+    margin-bottom: 22px;
+  }
+  .aboutText .commonTitle {
+    font-size: 33px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  .aboutText .highlightText {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .aboutText p {
+    margin-bottom: 30px;
+  }
+  .aboutText button {
+    padding: 15px 25px;
+  }
+  .aboutText button i {
+  }
+  /*  About Section End */
+
+  /* feature section */
+
+  .featureSection {
+    margin: 70px 0 0px;
+  }
+
+  .featureSection .sectionTitle {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .featureSection .sectionTitle .commonHead {
+    margin-bottom: 22px;
+  }
+  .featureSection .sectionTitle .commonTitle {
+    font-size: 35px;
+  }
+  .featureSection .featureCard {
+    margin-top: 30px;
+  }
+  .featureSection .featureCard:hover {
+  }
+  .featureSection .featureCard .iconBox {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .featureSection .featureCard .color1 {
+  }
+
+  .featureSection .featureCard .color2 {
+  }
+  .featureSection .featureCard .color3 {
+  }
+  .featureSection .featureCard .color4 {
+  }
+  .featureSection .featureCard i {
+    padding: 30px;
+    font-size: 27px;
+  }
+
+  .featureSection .cardText {
+  }
+  .featureSection .cardText h3 {
+    margin-bottom: 30px;
+  }
+  .featureSection .cardText p {
+    margin-bottom: 40px;
+  }
+
+  /* feature section end */
+
+  /* recentWork */
+  .recentWork {
+    margin: 70px 0 0px;
+  }
+  .recentWork .sectionTitle {
+  }
+  .recentWork .sectionTitle .commonHead {
+    margin-bottom: 22px;
+  }
+  .recentWork .sectionTitle .commonTitle {
+    font-size: 35px;
+  }
+  .recentText {
+    margin-top: 0px;
+    padding: 0 0px !important;
+  }
+  .recentText .commonHead {
+    margin-bottom: 15px;
+  }
+  .recentText .commonTitle {
+    font-size: 20px !important;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+  .recentText p {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  .leanmore a {
+  }
+  .recentImage {
+    padding-top: 30px;
+  }
+  .margin-bottom {
+    margin-bottom: 80px;
+  }
+
+  /* recentWork end*/
+  /* statistics */
+  .statisticsSection {
+    background-color: var(--stateBg);
+    padding: 50px 0;
+  }
+
+  .statisticsCard {
+    margin-top: 20px;
+  }
+  .stateImage {
+  }
+  .stateImage img {
+    max-width: 65px;
+    margin-bottom: 0px;
+  }
+
+  .stateText span {
+  }
+  .stateText {
+    margin-left: 0px;
+  }
+  .stateText p {
+    padding-right: 0%;
+  }
+  /* statistics end*/
+  /* testimonial */
+  .testimonialSection {
+    margin-top: 80px;
+  }
+  .testimonialSection .sectionTitle {
+    margin-bottom: 40px;
+  }
+  .testimonialSection .sectionTitle .commonHead {
+    margin-bottom: 22px;
+  }
+  .testimonialSection .sectionTitle .commonTitle {
+    font-size: 35px;
+  }
+  .videoImage {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .videoImage img {
+  }
+  .videoImage .overlay {
+    position: absolute;
+    background: #112e41;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .videoImage .videoIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: beat infinite 1.2s;
+    cursor: pointer;
+  }
+  .videoImage .videoIcon img {
+    width: 120px;
+    height: 120px;
+  }
+  .videoCaption {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: beat infinite 1.2s;
+    cursor: pointer;
+  }
+  .videoCaption {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  #reviewSlider .testimonial {
+    text-align: center;
+    margin-top: 20px;
+    max-width: fit-content;
+    padding: 0 0 0 0px;
+  }
+  .testimonial .image {
+    margin-bottom: 20px;
+  }
+  .testimonial .image img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 0;
+  }
+  .testimonialText {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .testimonialText p {
+  }
+  .detailInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .detailInfo .logo {
+  }
+  .detailInfo .logo img {
+    width: 120px;
+    margin: 0 auto 0;
+  }
+  .detailInfo .nameDesignation {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .slick-dots {
+    bottom: -10%;
+    left: 0%;
+    display: inline-block;
+  }
+
+  /* testimonial end */
+  /* Work Team */
+  .teamSection {
+    margin: 100px 0 0px;
+  }
+
+  .teamSection .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .teamSection .sectionTitle {
+    margin-bottom: 10px;
+  }
+  .teamSection .sectionTitle .commonHead {
+    margin-bottom: 22px;
+  }
+  .teamSection .sectionTitle .commonTitle {
+    font-size: 35px;
+  }
+  .teamCard {
+    margin-top: 40px;
+    text-align: center;
+    border: 8px solid var(--featureBoxBorder);
+    transition: all 0.3s ease-in-out;
+  }
+  .teamCard:hover {
+    text-align: center;
+    border: 8px solid transparent;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
+  }
+  .teamCard .cardImage {
+    padding: 15px;
+  }
+  .teamCard .cardImage img {
+  }
+  .teamCard .cardText {
+    margin-top: 25px;
+  }
+  .teamCard .cardText h3 {
+    margin-bottom: 20px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--title);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .teamCard .cardText h3:hover {
+    color: var(--head1);
+  }
+  .teamCard .cardText p {
+    margin-bottom: 30px;
+  }
+  .teamCard .socialMedia {
+    margin-bottom: 40px;
+  }
+
+  .teamCard .socialMedia a:hover {
+    color: var(--head1);
+  }
+  /* Work Team end */
+
+  /*Blog section*/
+  .blogSection {
+    margin-top: 100px;
+  }
+  .blogSection .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .blogSection .sectionTitle {
+    margin-bottom: 10px;
+  }
+  .blogSection .sectionTitle .commonHead {
+    margin-bottom: 22px;
+  }
+  .blogSection .sectionTitle .commonTitle {
+    font-size: 35px;
+  }
+  .blogCard {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.09);
+  }
+  .blogSection .cardImage {
+  }
+  .blogSection .cardImage img {
+  }
+  .blogText {
+    margin-top: 25px;
+    margin-left: 12px;
+  }
+  .blogText .category {
+    margin-bottom: 12px;
+  }
+  .blogText .category a {
+    padding: 0 10px;
+  }
+  .blogText .category a:first-child {
+  }
+  .blogText .category a:first-child:after {
+  }
+  .blogText .title {
+  }
+  .blogText .title h4 {
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+  .blogText .commentText {
+    padding-bottom: 45px;
+  }
+  .blogText .commentText a {
+    margin-right: 15px;
+  }
+  .blogText .commentText i {
+    margin-right: 2px;
+  }
+
+  /*Blog section end*/
+
+  /* contact  */
+  .contactSection {
+    margin-top: 80px;
+  }
+  .contactInformation {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .contactInformation .commonHead {
+    margin-bottom: 15px;
+  }
+  .contactInformation .commonTitle {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .flex {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  .flex p {
+  }
+  .flex img {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+  }
+
+  .form-control {
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    padding: 015px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    color: var(--paragraph);
+    background-color: #ffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  textarea[class="textArea"],
+  select {
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-weight: 400;
+    height: 170px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: var(--paragraph);
+    background-color: #ffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .contactSection button {
+    background-color: var(--head1);
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: #ffffff;
+  }
+  /* contact end  */
+  /* footerMenu */
+  .footerMenu {
+    padding: 40px 0 60px;
+  }
+  .footerMenu .widget-icon,
+  .widget-list,
+  .widget-img,
+  .widget-address {
+    margin-top: 20px;
+  }
+  /* footerMenu end */
+}

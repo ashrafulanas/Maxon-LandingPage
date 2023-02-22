@@ -1,0 +1,85 @@
+.blogSection {
+  margin-top: 130px;
+}
+.blogSection .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.blogSection .sectionTitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.blogSection .sectionTitle .commonHead {
+  margin-bottom: 25px;
+}
+.blogSection .sectionTitle .commonTitle {
+  font-size: 42px;
+}
+.blogCard {
+  margin-top: 50px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+}
+.blogCard:hover {
+  margin-top: 50px;
+
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+}
+.blogCard:hover .category a {
+  color: var(--head1);
+}
+.blogSection .cardImage {
+}
+.blogSection .cardImage img {
+}
+.blogText {
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.blogText .category {
+  margin-bottom: 25px;
+}
+.blogText .category a {
+  color: #999;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 0.8;
+  position: relative;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.blogText .category a:first-child {
+  padding-left: 0;
+}
+.blogText .category a:first-child:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: Author;
+  right: 0;
+  bottom: 0;
+  background-color: #d9dadb;
+  height: 100%;
+  width: 2px;
+}
+.blogText .title {
+}
+.blogText .title h4 {
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--title);
+  line-height: 1.6;
+}
+.blogText .commentText {
+  padding-bottom: 45px;
+}
+.blogText .commentText a {
+  color: #999;
+  margin-right: 25px;
+}
+.blogText .commentText i {
+  color: var(--head1);
+  margin-right: 5px;
+}

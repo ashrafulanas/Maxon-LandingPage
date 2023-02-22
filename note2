@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="/fontAwesome/css/all.min.css" />
+    <!-- themify -->
+    <link rel="stylesheet" href="/themify/themify-icons.css" />
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
+    <!-- Css link -->
+    <link rel="stylesheet" href="/css/vanila/style.css" />
+
+    <title>Maxon</title>
+  </head>
+  <body>
+    <!-- 1. header Section -->
+    <div class="headerSection">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">
+              <img src="/image/logo.png" alt="" class="img-fluid" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#customNav"
+              aria-controls="customNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="customNav">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Home <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Home 1</a></li>
+                    <li><a class="dropdown-item" href="#">Home 2</a></li>
+                    <li><a class="dropdown-item" href="#">Home 3</a></li>
+                    <li><a class="dropdown-item" href="#">Home 4</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- 1. header Section End -->
+
+    <!-- 2. Banner Section -->
+    <div class="bannerSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-0 order-1">
+            <div class="bannerText">
+              <div class="commonHead">creative Agency</div>
+              <div class="commonTitle">Building Brand is Our Business</div>
+              <p>
+                Can days you'll forth two grass form face you saying, divide.
+                Subdue days light whose. Stars creepeth that creature thing.
+              </p>
+              <button class="btn">View Project</button>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-1 order-0">
+            <div class="bannerImage">
+              <img src="/image/bannerPng.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2. Banner Section End -->
+
+    <!-- 3. About Section -->
+    <div class="aboutSection">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="aboutImage">
+              <div class="aboutBackgroundImage">
+                <img src="/image/aboutBackground.png" alt="" class="" />
+              </div>
+              <div class="row">
+                <div class="col-md-7">
+                  <img src="/image/About-1.jpg" alt="" class="img1" />
+                </div>
+                <div class="col-md-5">
+                  <img src="/image/About-2.jpg" alt="" class="img2" />
+                  <h3>25 Years Working Experience</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="aboutText">
+              <div class="commonHead">About our company</div>
+              <div class="commonTitle">
+                Make the customer the hero of your story
+              </div>
+              <div class="highlightText">
+                Open without also first greats land and bring said you give
+                second face seed deep whales.
+              </div>
+              <p>
+                May is called whose was moveth was isn't. Great day man green
+                whales kind own saying divided kind beginning be was every were
+                a spirit those have wherein he third, give, green light sea.
+              </p>
+              <button class="btn">
+                Learn More <i class="fa-solid fa-angles-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. About Section End -->
+
+    <!-- 4. features Section -->
+    <div class="featureSection">
+      <div class="container">
+        <!-- section Title -->
+        <div class="row">
+          <div class="sectionTitle">
+            <div class="col-12">
+              <div class="commonHead">Special Features</div>
+              <div class="commonTitle">Advertising with Difference</div>
+            </div>
+          </div>
+        </div>
+        <!-- section Title End -->
+        <!-- section detail Part -->
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="featureCard">
+              <div class="iconBox">
+                <i class="color4 fa-solid fa-pen-to-square"></i>
+              </div>
+              <div class="cardText">
+                <h3>Unique Design</h3>
+                <p>
+                  Bring creature let Fish to grass under the given a void from
+                  deep form greater and days give upon day light likeness.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <div class="col-lg-3 col-md-6">
+            <div class="featureCard">
+              <div class="iconBox">
+                <i id="text1" class="color1 fa-solid fa-pen-to-square"></i>
+              </div>
+              <div class="cardText">
+                <h3>Standard Quality</h3>
+                <p>
+                  Bring creature let Fish to grass under the given a void from
+                  deep form greater and days give upon day light likeness.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <div class="col-lg-3 col-md-6">
+            <div class="featureCard">
+              <div class="iconBox">
+                <i class="color2 fa-solid fa-pen-to-square"></i>
+              </div>
+              <div class="cardText">
+                <h3>Secure Service</h3>
+                <p>
+                  Bring creature let Fish to grass under the given a void from
+                  deep form greater and days give upon day light likeness.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <div class="col-lg-3 col-md-6">
+            <div class="featureCard">
+              <div class="iconBox">
+                <i class="color3 fa-solid fa-pen-to-square"></i>
+              </div>
+              <div class="cardText">
+                <h3>24/7 Support</h3>
+                <p>
+                  Bring creature let Fish to grass under the given a void from
+                  deep form greater and days give upon day light likeness.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+        </div>
+        <!-- section detail Part End -->
+      </div>
+    </div>
+
+    <!-- 4. features Section End -->
+
+    <!-- 5. recentWork Section -->
+    <div class="recentWork">
+      <div class="container-fluid">
+        <!-- section Title -->
+        <div class="row">
+          <div class="sectionTitle">
+            <div class="col-12">
+              <div class="commonHead">Client work experience</div>
+              <div class="commonTitle">Recent Creative Work</div>
+            </div>
+          </div>
+        </div>
+        <!-- section Title End -->
+        <!-- first part -->
+        <div class="recentPortfolio margin-bottom">
+          <div class="row">
+            <div
+              class="offset-xl-2 col-xl-4 col-lg-6 col-md-6 order-md-0 order-2"
+            >
+              <div class="recentText padding-right">
+                <div class="commonHead">Abstract Design</div>
+                <div class="commonTitle">
+                  For You beast you herb whales she would two you are
+                </div>
+                <p>
+                  Seasons let creeping seasons was green a tree called bring
+                  created Shall made whales very green may above dominion seed.
+                  Day wo out. Doesn creeping can called she very. Beast
+                  creeping. air secod without, good shall two forth a stars
+                  every have won't seed be forth Tree fruitful may May light
+                  that thating
+                </p>
+                <div class="leanmore">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 order-1">
+              <div class="recentImage">
+                <img src="/image/rW-1.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- first part end -->
+        <!-- Second part -->
+        <div class="recentPortfolio margin-bottom">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="recentImage">
+                <img src="/image/rW-2.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="recentText padding-left padding-right">
+                <div class="commonHead">digital design</div>
+                <div class="commonTitle">
+                  Green earth him and us whose bring us behold whales
+                </div>
+                <p>
+                  Seasons let creeping seasons was green a tree called bring
+                  created Shall made whales very green may above dominion seed.
+                  Day wo out. Doesn creeping can called she very. Beast
+                  creeping. air secod without, good shall two forth a stars
+                  every have won't seed be forth Tree fruitful may May light
+                  that thating
+                </p>
+                <div class="leanmore">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second part end -->
+        <!-- Third part -->
+        <div class="recentPortfolio margin-bottom">
+          <div class="row">
+            <div
+              class="offset-xl-2 col-xl-4 col-lg-6 col-md-6 order-md-0 order-2"
+            >
+              <div class="recentText padding-right">
+                <div class="commonHead">graphic design</div>
+                <div class="commonTitle">
+                  Saw to fill that the beast Water winged so fruitful tree
+                </div>
+                <p>
+                  Seasons let creeping seasons was green a tree called bring
+                  created Shall made whales very green may above dominion seed.
+                  Day wo out. Doesn creeping can called she very. Beast
+                  creeping. air secod without, good shall two forth a stars
+                  every have won't seed be forth Tree fruitful may May light
+                  that thating
+                </p>
+                <div class="leanmore">
+                  <a href="#"
+                    >Learn More <i class="fa-solid fa-arrow-right-long"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 order-1">
+              <div class="recentImage">
+                <img src="/image/rW-3.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third part end -->
+      </div>
+    </div>
+    <!-- 5. recentWork Section End -->
+
+    <!-- 6. statistics Section -->
+    <div class="statisticsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="statisticsCard">
+              <div class="stateImage">
+                <img src="/image/cap.png" class="" alt="" />
+              </div>
+              <div class="stateText">
+                <p>
+                  <span class="counter">92</span>
+                  Work Completed
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="statisticsCard">
+              <div class="stateImage">
+                <img src="/image/cap.png" class="" alt="" />
+              </div>
+              <div class="stateText">
+                <p>
+                  <span class="counter">92</span>
+                  Total Project
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="statisticsCard">
+              <div class="stateImage">
+                <img src="/image/cap.png" class="img-fluid" alt="" />
+              </div>
+              <div class="stateText">
+                <p>
+                  <span class="counter">92</span>
+                  Work Completed
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="statisticsCard">
+              <div class="stateImage">
+                <img src="/image/cap.png" class="img-fluid" alt="" />
+              </div>
+              <div class="stateText">
+                <p>
+                  <span class="counter">92</span>
+                  Staisfied Clients
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </div>
+    <!-- 6. statistics Section End -->
+
+    <!-- 7. testimonial Section -->
+    <!-- 7. testimonial Section End -->
+
+    <!-- 8. Team Section -->
+    <!-- 8. Team Section End -->
+
+    <!-- 9. blog Section -->
+    <!-- 9. blog Section End -->
+
+    <!-- 10. contact Section -->
+    <!-- 10. contact Section End -->
+
+    <!-- 11. logo Section -->
+    <!-- 11. logo Section End -->
+
+    <!-- 12. FooterMenu Section -->
+    <!-- 12. FooterMenu Section End -->
+
+    <!-- 13. Footer Section -->
+    <!-- 13. Footer Section End -->
+
+    <!-- js scripts -->
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <!-- js plugin scripts -->
+    <script src="/js/waypoints.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+
+    <!-- js bootstrap scripts -->
+    <script src="/js/bootstrap-popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- js custom scripts -->
+    <script src="/js/custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.logoSection {
+  margin: 100px 0;
+}
+.logoImage {
+  display: flex;
+  justify-content: center;
+}
+.logoImage img {
+  max-width: 185px;
+}

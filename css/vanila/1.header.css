@@ -1,0 +1,67 @@
+.headerSection {
+  background: var(--headerBackground);
+  /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.75); */
+}
+.headerSection .container {
+}
+.headerSection .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.headerSection .logo {
+  padding: 15px 0;
+}
+.headerSection .logo img {
+}
+.headerSection .menu {
+}
+.headerSection .menu ul {
+}
+.headerSection .menu ul li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.headerSection .menu ul li ul li {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.headerSection .menu ul li ul li a {
+  padding: 10px;
+}
+.headerSection .menu ul li:last-child {
+  padding-right: 0px;
+}
+.headerSection .menu ul li a {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.headerSection .menu ul li a i {
+  padding-left: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--menuFont);
+  transition: all 0.3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--head1);
+}
+.dropdown-menu {
+  padding: 0 0px;
+  min-width: 170px;
+  background-color: #f7f7f7;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 55px;
+  left: 20%;
+  margin-top: 0.125rem;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: var(--head1);
+  background-color: #f5f5f5;
+}
